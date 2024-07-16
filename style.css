@@ -1,0 +1,161 @@
+.content {
+  margin:           0;
+  padding:          0;
+  background-color: #000000;
+}
+.content .container_1200 {
+  text-align:       center;
+  margin:           0 auto;
+  padding:          0;
+  background-color: #000000;
+  color:            #ffffff;
+}
+
+
+* {
+  font-family: "Source Sans Pro", "Ubuntu", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #EEEEEE #FA5500;
+}
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #FA5500;
+}
+*::-webkit-scrollbar-thumb {
+  border: 2px solid #FA5500;
+  background-color: #EEEEEE;
+  border-radius: 3px;
+}
+
+html {
+  font-size:        14px;
+}
+
+body {
+  margin:           0;
+  padding:          0;
+  font-size:        1rem;
+  background-color: #000000;
+}
+
+.icon-cluster {
+   position: absolute;
+   font-size: 1.1rem;
+   font-weight: 600;
+   padding-top: 0.55rem;
+   text-align: center;
+   background: url(router.png);
+   background-size: contain;
+}
+
+.loading {
+  margin-top:       1em;
+  margin-left:      auto;
+  margin-right:     auto;
+  display:          none;
+  width:            90%;
+}
+
+.result {
+  margin-top:       1em;
+  margin-left:      auto;
+  margin-right:     auto;
+  display:          block;
+  width:            90%;
+}
+
+#error {
+  width:            100%;
+  margin-left:      auto;
+  margin-right:     auto;
+  display:          none;
+}
+
+kbd {
+  display:          block;
+  width:            100%;
+  margin-left:      auto;
+  margin-right:     auto;
+}
+
+pre {
+  color:            #000000;
+  background-color: #FFFFFF;
+  text-decoration:  none;
+  width:            100%;
+  margin-left:      auto;
+  margin-right:     auto;
+  padding-left:     1%;
+  padding-right:    1%;
+  text-align:       left;
+}
+
+a {
+  color:            #FFFFFF;
+  text-decoration:  none;
+}
+
+a:hover {
+  color:            #FFFFFF;
+  text-decoration:  none;
+}
+
+.modal-header .close {
+    color: #ffffff;
+}
+
+.modal-header {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-footer {
+    border-top: 1px solid #dee2e6;
+}
+
+.modal-content {
+  background-color: #333333;
+  border: 3px solid rgba(255,255,255,.4);
+  border-radius: 1rem;
+}
+
+.modal-dialog {
+  color:            #FFFFFF;
+  margin-left:      auto;
+  margin-right:     auto;
+  font-size: 1rem !important;
+}
+
+#help .modal-dialog {
+  max-width: 80rem !important;
+}
+
+.asn-database {
+  padding: 0;
+  letter-spacing: 0.05rem;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 9999px) {
+    .content .container_1200 {
+        width: 1170px;
+        min-width: 1170px;
+        max-width: 1170px;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .content .container_1200 {
+        width: 970px;
+        min-width: 970px;
+        max-width: 970px;
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .content .container_1200 {
+        width: 750px;
+        min-width: 750px;
+        max-width: 750px;
+}
