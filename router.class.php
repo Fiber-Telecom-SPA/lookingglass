@@ -113,9 +113,7 @@ abstract class Router {
   }
 
   public function rpki_validate($parameter) {
-    $url = sprintf("http://172.30.37.33:8323/api/v1/status");
-    $status = json_decode(file_get_contents($url),false);
-    $url = sprintf("http://172.30.37.33:8323/api/v1/validity/%s/%s",$parameter[1],$parameter[0]);
+    $url = sprintf("http://10.0.0.33:8323/api/v1/validity/%s/%s",$parameter[1],$parameter[0]); // change with the IP of your RPKI validator
     $data = json_decode(file_get_contents($url),false);
     if (empty($data)) {
       $ret  = '<strong><big>NO RESULTS</big></strong>';
