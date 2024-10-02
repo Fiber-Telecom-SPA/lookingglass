@@ -93,7 +93,7 @@ $config=<<<EOT
         "router1": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.51",
@@ -103,7 +103,7 @@ $config=<<<EOT
         "router2": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.54",
@@ -113,7 +113,7 @@ $config=<<<EOT
         "router3": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.47",
@@ -123,7 +123,7 @@ $config=<<<EOT
         "router4": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.53",
@@ -133,7 +133,7 @@ $config=<<<EOT
         "router5": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.46",
@@ -143,7 +143,7 @@ $config=<<<EOT
         "router6": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.48",
@@ -153,7 +153,7 @@ $config=<<<EOT
         "router7": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.52",
@@ -163,7 +163,7 @@ $config=<<<EOT
         "router8": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.45",
@@ -173,7 +173,7 @@ $config=<<<EOT
         "router9": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.44",
@@ -183,7 +183,7 @@ $config=<<<EOT
         "router10": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.36",
@@ -193,7 +193,7 @@ $config=<<<EOT
         "router11": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.27",
@@ -203,7 +203,7 @@ $config=<<<EOT
         "router12": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.28",
@@ -213,7 +213,7 @@ $config=<<<EOT
         "router13": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.30",
@@ -223,7 +223,7 @@ $config=<<<EOT
         "router14": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.31",
@@ -233,7 +233,7 @@ $config=<<<EOT
         "router15": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.55",
@@ -243,7 +243,7 @@ $config=<<<EOT
         "router16": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.26",
@@ -253,7 +253,7 @@ $config=<<<EOT
         "router17": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.21",
@@ -263,7 +263,7 @@ $config=<<<EOT
         "router18": {
             "source-interface-id": "lo0",
             "user": "lgRestrictedUser",
-            "pass": "226d3b4e46e733477b187e2e48b2b7d80dd9a1ff!",
+            "pass": "!thequickbrownfoxjumpsoverthelazydog!",
             "auth": "ssh-password",
             "type": "juniper",
             "host": "192.168.123.24",
