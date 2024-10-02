@@ -112,27 +112,6 @@ abstract class Router {
     return $data;
   }
 
-/*
-  public function rpki_validate($parameter) {
-    $url = sprintf("http://172.20.21.33/api/bgp/validity?prefix=%s&asn=%s",urlencode($parameter[0]),urlencode($parameter[1]));
-    $data = json_decode(file_get_contents($url),false);
-    if (empty($data)) {
-      $ret  = '<strong><big>NO RESULTS</big></strong>';
-    } else {
-      $ret  = sprintf('<strong><big>%s    %s   %s</big></strong>'.PHP_EOL.PHP_EOL, $data->data->validity, $data->data->origin, $data->data->prefix);
-      $ret .= sprintf('Last Modified : %s'.PHP_EOL, date('D d/m/Y H:i:s',$data->metadata->lastModified/1000));
-      $ret .= sprintf('Total Count : %s'.PHP_EOL.PHP_EOL, $data->metadata->totalCount);
-      foreach ($data->data->validatingRoas as $row) {
-        unset($row->uri);
-        foreach ($row as $k=>$v) $ret .= sprintf('    %s : %s'.PHP_EOL, $k, $v);
-        $ret .= PHP_EOL;
-      }
-      $ret .= PHP_EOL;
-    }
-    return $ret;
-  }
-*/
-
   public function rpki_validate($parameter) {
     $url = sprintf("http://172.30.37.33:8323/api/v1/status");
     $status = json_decode(file_get_contents($url),false);
